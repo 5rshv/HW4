@@ -50,5 +50,11 @@ public class Main {
             result = result + SumSave * (1+percent);
             System.out.println("Месяц "+i+", сумма накоплений равна "+result+" рублей");
         }
+        System.out.println(" ");
+        System.out.println("Задание 10:");
+        for(int i = 1; i <= 10; i ++){
+            int a = 2 * i;
+            System.out.println("2*"+i+"="+a);
+        }
     }
 }
